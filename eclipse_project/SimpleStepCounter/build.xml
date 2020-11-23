@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="release" default="build" basedir="." >
+	<target name="build">
+		<jar basedir="bin" jarfile="release/SimpleStepCounter.jar" />
+		<copy file="StepCounter.properties" todir="release/"/>
+	    <copy todir="../../" >
+	      <fileset dir="release/">
+	      </fileset>
+	    </copy>
+	</target>
+	<target name="clean">
+		<delete file="test.txt"/>
+	</target>
+	<target name="test">
+		<java classname="util.stepcounter.StepCounter">
+			<classpath path="./" />
+			<classpath path="./bin/" />
+			<arg value="./src/" />
+			<arg value="test.txt" />
+		</java>
+	</target>
+</project>

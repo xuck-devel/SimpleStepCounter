@@ -1,0 +1,3 @@
+G:\IntegratedDevEnv\projects\SimpleStepCounter\git-repo-master\eclipse_project\SimpleStepCounter\.\src\util\io\FileUtil.java	java	21	13
+G:\IntegratedDevEnv\projects\SimpleStepCounter\git-repo-master\eclipse_project\SimpleStepCounter\.\src\util\stepcounter\StepCounter.java	java	388	242
+G:\IntegratedDevEnv\projects\SimpleStepCounter\git-repo-master\eclipse_project\SimpleStepCounter\.\src\util\stepcounter\StepCounterConfig.java	java	125	101
