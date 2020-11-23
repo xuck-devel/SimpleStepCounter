@@ -12,9 +12,9 @@ Simple step counter for CLI,Java API
 
 ### as CLI:
 
-1.call SimpleStepCounter as below:
-&nbsp;
-for windwos:
+1.call SimpleStepCounter as below:  
+&nbsp;  
+for windwos:  
 <pre style="padding-left:10px;"><code>call SimpleStepCounter.bat [rootdir including files getting steps] [output file]
 </code></pre>
 
