@@ -51,31 +51,31 @@ change StepCounter.properties as below:
 </code></pre>
 
 2.add configration for your types ,as below:  
-<pre><code>\#extentions of appended filetype
+<pre><code>#extentions of appended filetype
 cppsample.extentions=cpp,hpp
 &nbsp;
-\#block comment start string
+#block comment start string
 cppsample.blockCommentStart=/*
 &nbsp;
-\#block comment end string
+#block comment end string
 cppsample.blockCommentEnd=*/
 &nbsp;
-\#line comment start string
+#line comment start string
 cppsample.lineCommentStart=//
 &nbsp;
-\#line comment end string
+#line comment end string
 cppsample.lineCommentEnd=\n
 &nbsp;
-\#char literal start character
+#char literal start character
 cppsample.charLiteralDelim='
 &nbsp;
-\#char literal escape character
+#char literal escape character
 cppsample.escapeChar_charLiteral=\\
 &nbsp;
-\#string literal start character
+#string literal start character
 cppsample.stringLiteralDelim="
 &nbsp;
-\#string literal escape character
+#string literal escape character
 cppsample.escapeChar_stringLiteral=\\
 </code></pre>
 
