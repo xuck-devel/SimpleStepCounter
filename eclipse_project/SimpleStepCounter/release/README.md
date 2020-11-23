@@ -1,12 +1,12 @@
 # SimpleStepCounter
 
-Simple step counter for CLI,Java API
+Simple step counter for multi-language,with CLI & Java API
 
 ## function overview
 
 - use as CLI,as automation for getting steps of many source files,aggregating,and so on.
 - also use as Java API,for development of your programs/tools.
-- various file type support,by customizing configuration files.
+- multi-language support,by customizing configuration files.
 
 ## how to use
 
@@ -42,9 +42,9 @@ util.stepcounter.StepCounter.getExecStep(yourfile);
 </code></pre>
 
 
-## various file type support
+## multi-language support
 
-change StepCounter.properties as below:
+for multi-language support,change StepCounter.properties as below:
 
 1.add supported_filetypes(in this sample, add "cppsample")  
 <pre><code>supported_filetypes=java,c,shell,general1,general2,cppsample  
